@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int senha;
+    while(1) {
+        printf("Senha: ");
+        scanf("%d", &senha);
+        if(senha == 1234) { printf("Acesso ok!\n"); break; }
+    }
+    return 0;
+}
