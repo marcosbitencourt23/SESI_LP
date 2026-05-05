@@ -1,0 +1,21 @@
+
+
+#include <stdio.h>
+
+int subtracaodedoisvalores(int a, int b){
+ return a - b;
+}
+
+int main (){
+    int n1, n2;
+    int subtracao=0;
+    
+    printf("digite o primeiro valor: ");
+    scanf("%i", &n1);
+     
+     printf("digite o primeiro valor: ");
+     scanf("%i", &n2);
+     
+    subtracao = subtracaodedoisvalores(n1,n2);
+     
+     printf("subtracao de dois valores: %i", subtracao);

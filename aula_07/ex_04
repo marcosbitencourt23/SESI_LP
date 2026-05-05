@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int divisaodedoisvalores(int a, int b){
+ return a / b;
+}
+
+int main (){
+    int n1, n2;
+    int divisao=0;
+    
+    printf("digite o primeiro valor: ");
+    scanf("%i", &n1);
+     
+     printf("digite o primeiro valor: ");
+     scanf("%i", &n2);
+     
+divisao = divisaodedoisvalores(n1,n2);
+     
+     printf("divisao de dois valores: %i", divisao);
+}
